@@ -36,6 +36,7 @@ public class App extends Application {
     // Removed duplicate start(Stage stage) method to resolve compilation error.
     public static void main(String[] args) {
         launch();
+        System.out.println("Hello, World!");
     }
 
 
